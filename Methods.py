@@ -21,9 +21,9 @@ class Hero:
         self.health += up
         self.power += up
 
-    def powerUp(self):
-        return self.power
-
+    # method dengan return
+    def powerUp(self, up):
+        return self.power + up
 
 
 hero1 = Hero('sniper', 100, 10, 5)
@@ -35,4 +35,4 @@ hero2.siapa()
 hero1.healthUp(10)
 print(hero1.health)
 
-print(hero1.powerUp())
+print(hero1.powerUp(10))
