@@ -30,6 +30,6 @@ print(sniper.getJumlah2())
 rikimaru = Hero("rikimaru")
 print(Hero.getJumlah2())
 drowranger = Hero('drowranger')
-print(sniper.getJumlah3())
+print(Hero.getJumlah3())
 
 
