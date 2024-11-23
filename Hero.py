@@ -59,7 +59,6 @@ class Hero:
 
 
 class HeroInteligence(Hero):
-
     def __init__(self,name):
         super().__init__(name)
         self.health_pool = [0,50,100,150,200,250]
